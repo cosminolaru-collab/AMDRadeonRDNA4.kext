@@ -1,0 +1,21 @@
+Frame SHA-256 12dc6a3bb6eee66ee5c178d1480d2f0d9f50c675a0f2c9daecf616931c308cd1
+fixed bf0ed7e copy_and_mips median 53.9909215 p95 83.966847 max 91.02102
+fixed bf0ed7e mips median 2.125686 p95 3.147544 max 4.485195
+fixed port copy_and_mips median 3.3773535 p95 3.861242 max 4.19792
+fixed port mips median 1.9927325 p95 2.424166 max 2.605802
+sequence bf0ed7e copy_and_mips median 61.717378 p95 89.428105 max 95.034357
+sequence bf0ed7e mips median 1.9087115 p95 2.563731 max 2.680001
+sequence port copy_and_mips median 4.619031 p95 6.632227 max 8.926187
+sequence port mips median 1.796485 p95 2.417677 max 2.923711
+plane 0 R16: 12 levels, 22118110 bytes matched including level zero
+plane 1 RG16: 11 levels, 11058620 bytes matched including level zero
+R16 3840x2160: 11 VRAM levels bit-identical, host backing 0 bytes, view and blits passed, generate 2.058 ms
+RG16 1920x1080: 10 VRAM levels bit-identical, host backing 0 bytes, view and blits passed, generate 1.228 ms
+RG16 2049x1025: 11 VRAM levels bit-identical, host backing 0 bytes, view and blits passed, generate 1.059 ms
+RG16 split (shader-write usage): 10 VRAM levels bit-identical, host backing 8294400 bytes, view and blits passed, generate 2.071 ms
+RG16 129x65: 7 host levels bit-identical, host backing 66304 bytes, view and blits passed, generate 0.256 ms
+Implicit mip sampling, dimensions and level counts passed for both planes and their views
+plane 0: partial blit and all four border edges passed
+plane 1: partial blit and all four border edges passed
+base COUNTS one_level=21 grouped_tail=0 whole_chain=0 gpu_plane_copy=0 host_writes=2 host_write_bytes=24883200
+port COUNTS one_level=21 grouped_tail=0 whole_chain=0 gpu_plane_copy=2 host_writes=0 host_write_bytes=0
